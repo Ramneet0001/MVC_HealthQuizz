@@ -14,6 +14,8 @@
 		2B939F0828A38AD900A5E9F4 /* MVC_HealthQuizz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B939F0628A38AD900A5E9F4 /* MVC_HealthQuizz.xcdatamodeld */; };
 		2B939F0A28A38ADC00A5E9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B939F0928A38ADC00A5E9F4 /* Assets.xcassets */; };
 		2B939F0D28A38ADC00A5E9F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B939F0B28A38ADC00A5E9F4 /* LaunchScreen.storyboard */; };
+		2B939F1828A38B7200A5E9F4 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B939F1728A38B7200A5E9F4 /* QuestionBank.swift */; };
+		2B939F1A28A38B9700A5E9F4 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B939F1928A38B9700A5E9F4 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2B939F0928A38ADC00A5E9F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B939F0C28A38ADC00A5E9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B939F0E28A38ADC00A5E9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B939F1728A38B7200A5E9F4 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		2B939F1928A38B9700A5E9F4 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,42 @@
 		2B939EFC28A38AD800A5E9F4 /* MVC_HealthQuizz */ = {
 			isa = PBXGroup;
 			children = (
+				2B939F1528A38B3900A5E9F4 /* Model */,
+				2B939F1428A38B2F00A5E9F4 /* View */,
+				2B939F1628A38B4200A5E9F4 /* Controller */,
 				2B939EFD28A38AD800A5E9F4 /* AppDelegate.swift */,
 				2B939EFF28A38AD800A5E9F4 /* SceneDelegate.swift */,
-				2B939F0128A38AD800A5E9F4 /* ViewController.swift */,
-				2B939F0328A38AD800A5E9F4 /* Main.storyboard */,
-				2B939F0928A38ADC00A5E9F4 /* Assets.xcassets */,
-				2B939F0B28A38ADC00A5E9F4 /* LaunchScreen.storyboard */,
 				2B939F0E28A38ADC00A5E9F4 /* Info.plist */,
 				2B939F0628A38AD900A5E9F4 /* MVC_HealthQuizz.xcdatamodeld */,
 			);
 			path = MVC_HealthQuizz;
+			sourceTree = "<group>";
+		};
+		2B939F1428A38B2F00A5E9F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B939F0328A38AD800A5E9F4 /* Main.storyboard */,
+				2B939F0B28A38ADC00A5E9F4 /* LaunchScreen.storyboard */,
+				2B939F0928A38ADC00A5E9F4 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B939F1528A38B3900A5E9F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B939F1728A38B7200A5E9F4 /* QuestionBank.swift */,
+				2B939F1928A38B9700A5E9F4 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B939F1628A38B4200A5E9F4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B939F0128A38AD800A5E9F4 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +174,8 @@
 				2B939F0228A38AD800A5E9F4 /* ViewController.swift in Sources */,
 				2B939EFE28A38AD800A5E9F4 /* AppDelegate.swift in Sources */,
 				2B939F0828A38AD900A5E9F4 /* MVC_HealthQuizz.xcdatamodeld in Sources */,
+				2B939F1A28A38B9700A5E9F4 /* Question.swift in Sources */,
+				2B939F1828A38B7200A5E9F4 /* QuestionBank.swift in Sources */,
 				2B939F0028A38AD800A5E9F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
